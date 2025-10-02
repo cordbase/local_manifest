@@ -6,7 +6,7 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-  <project name="cordbase/android_device_nothing_Aerodactyl" path="device/nothing/Aerodactyl" remote="github" revision="infinityx" />
+  <project name="cordbase/android_device_nothing_Aerodactyl" path="device/nothing/Aerodactyl" remote="github" revision="axion-A16" />
 
   <project name="nothing-2a/proprietary_vendor_nothing_Aerodactyl" path="vendor/nothing/Aerodactyl" remote="gitlab" revision="lineage-23.0" />
   <project name="nothing-2a/proprietary_vendor_nothing_Pacman" path="vendor/nothing/Pacman" remote="gitlab" revision="lineage-23.0" />

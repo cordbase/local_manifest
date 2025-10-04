@@ -18,7 +18,7 @@
         name="sourajitk/vendor_google_sunfish" 
         path="vendor/google/sunfish" 
         remote="github" 
-        revision="master" 
+        revision="A11" 
         clone-depth="1" />
 
     <!-- Kernel tree -->
@@ -26,7 +26,7 @@
         name="LineageOS/android_kernel_google_sunfish" 
         path="kernel/google/sunfish" 
         remote="github" 
-        revision="master" 
+        revision="lineage-18.1" 
         clone-depth="1" />
 
 </manifest>

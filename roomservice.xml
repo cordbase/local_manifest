@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+    <!-- Device tree -->
+    <project 
+        name="cordbase/android_device_google_sunfish" 
+        path="device/google/sunfish" 
+        remote="github" 
+        revision="dotos" 
+        clone-depth="1" />
+
+    <!-- Vendor tree -->
+    <project 
+        name="sourajitk/vendor_google_sunfish" 
+        path="vendor/google/sunfish" 
+        remote="github" 
+        revision="master" 
+        clone-depth="1" />
+
+    <!-- Kernel tree -->
+    <project 
+        name="LineageOS/android_kernel_google_sunfish" 
+        path="kernel/google/sunfish" 
+        remote="github" 
+        revision="master" 
+        clone-depth="1" />
+
+</manifest>

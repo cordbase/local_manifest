@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-    <remote name="cordbase" fetch="https://github.com/kshitij-inventory" revision="dotos" />
+    <remote name="cordbase" fetch="https://github.com/cordbase" revision="dotos" />
     <remote name="sourajitk" fetch="https://github.com/sourajitk" revision="11" />
     <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
 

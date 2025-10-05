@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- Remote -->
-    <remote name="github"
-        fetch="https://github.com/" />
+    <!-- Remotes -->
+    <remote name="cordbase" fetch="https://github.com/kshitij-inventory" revision="dotos" />
+    <remote name="sourajitk" fetch="https://github.com/sourajitk" revision="11" />
+    <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
 
     <!-- Device tree -->
-    <project 
-        name="cordbase/android_device_google_sunfish" 
-        path="device/google/sunfish" 
-        remote="github" 
-        revision="dotos" 
-        clone-depth="1" />
+    <project name="android_device_google_sunfish" path="device/google/sunfish" remote="cordbase" />
 
     <!-- Vendor tree -->
-    <project 
-        name="sourajitk/vendor_google_sunfish" 
-        path="vendor/google/sunfish" 
-        remote="github" 
-        revision="A11" 
-        clone-depth="1" />
+    <project name="vendor_google_sunfish" path="vendor/google/sunfish" remote="sourajitk" />
 
-    <!-- Kernel tree -->
-    <project 
-        name="LineageOS/android_kernel_google_sunfish" 
-        path="kernel/google/sunfish" 
-        remote="github" 
-        revision="lineage-18.1" 
-        clone-depth="1" />
-
+    <!-- Kernel source -->
+    <project name="android_kernel_google_sunfish" path="kernel/google/sunfish" remote="los" />
 </manifest>

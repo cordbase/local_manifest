@@ -21,48 +21,48 @@
         path="vendor/nothing/PacmanPro"
         name="proprietary_vendor_nothing_PacmanPro"
         remote="gitlab-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
     
     <project
         path="vendor/nothing/Aerodactyl"
         name="proprietary_vendor_nothing_Aerodactyl"
         remote="gitlab-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
     <project
         path="kernel/nothing/mt6886"
         name="android_kernel_nothing_mt6886"
-        remote="github-nothing"
-        revision="lineage-22.2" />
+        remote="cordbase"
+        revision="testing" />
 
     <project
         path="device/nothing/Aerodactyl-kernel"
         name="android_device_nothing_Aerodactyl-kernel"
         remote="github-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
     <project
         path="kernel/nothing/modules_mt6886"
         name="android_kernel_modules_nothing_mt6886"
         remote="github-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
     <project
         path="hardware/nothing"
         name="android_hardware_nothing"
         remote="github-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
     <project
         path="device/mediatek/sepolicy_vndr"
         name="android_device_mediatek_sepolicy_vndr"
         remote="github-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
     <project
         path="hardware/mediatek"
         name="android_hardware_mediatek"
         remote="github-nothing"
-        revision="lineage-22.2" />
+        revision="lineage-23.0" />
 
 </manifest>

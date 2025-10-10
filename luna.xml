@@ -15,7 +15,7 @@
         path="device/nothing/Aerodactyl"
         name="android_device_nothing_Aerodactyl"
         remote="cordbase"
-        revision="pos-A15" />
+        revision="lunaris-A16" />
 
     <project
         path="vendor/nothing/PacmanPro"
@@ -32,8 +32,8 @@
     <project
         path="kernel/nothing/mt6886"
         name="android_kernel_nothing_mt6886"
-        remote="cordbase"
-        revision="testing" />
+        remote="github-nothing"
+        revision="lineage-23.0" />
 
     <project
         path="device/nothing/Aerodactyl-kernel"
@@ -64,5 +64,17 @@
         name="android_hardware_mediatek"
         remote="github-nothing"
         revision="lineage-23.0" />
+
+    <project
+        path="device/nothing/Aerodactyl-ntcamera"
+        name="android_device_nothing_Aerodactyl-ntcamera"
+        remote="github-nothing"
+        revision="lineage-22.2" />
+
+    <project
+        path="vendor/nothing/Aerodactyl-ntcamera"
+        name="proprietary_vendor_nothing_Aerodactyl-ntcamera"
+        remote="github-nothing"
+        revision="lineage-22.2" />
 
 </manifest>

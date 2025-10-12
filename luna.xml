@@ -18,6 +18,12 @@
         revision="lunaris-A16" />
 
     <project
+        path="vendor/nothing/Pacman"
+        name="proprietary_vendor_nothing_Pacman"
+        remote="gitlab-nothing"
+        revision="lineage-23.0" />
+    
+    <project
         path="vendor/nothing/PacmanPro"
         name="proprietary_vendor_nothing_PacmanPro"
         remote="gitlab-nothing"

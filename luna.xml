@@ -74,7 +74,7 @@
     <project
         path="device/nothing/Aerodactyl-ntcamera"
         name="android_device_nothing_Aerodactyl-ntcamera"
-        remote="github-nothing"
+        remote="cordbase"
         revision="lineage-22.2" />
 
     <project

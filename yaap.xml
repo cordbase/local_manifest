@@ -6,8 +6,8 @@
     <!-- Device Tree -->
     <project name="SM6225-Motorola/device_motorola_devon" path="device/motorola/devon" remote="github" revision="A16"/>
     <project name="SM6225-Motorola/device_motorola_hawao" path="device/motorola/hawao" remote="github" revision="A16"/>
-    <project name="SM6225-Motorola/device_motorola_rhode" path="device/motorola/rhode" remote="github" revision="A16"/>
-    <project name="SM6225-Motorola/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="github" revision="A16"/>
+    <project name="cordbase/device_motorola_rhode" path="device/motorola/rhode" remote="github" revision="yaap-A16"/>
+    <project name="cordbase/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="github" revision="yaap-A16"/>
 
     <!-- Vendor -->
     <project name="TheMuppets/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="github" revision="lineage-22.2"/>
@@ -16,7 +16,7 @@
     <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="github" revision="lineage-22.2"/>
     
     <!-- Kernel and Others-->
-    <project name="SM6225-Motorola/DanceKernel" path="kernel/motorola/sm6225" remote="github" revision="main"/>
+    <project name="cordbase/DanceKernel" path="kernel/motorola/sm6225" remote="github" revision="main"/>
     <project name="SM6225-Motorola/hardware_motorola.git" path="hardware/motorola" remote="github" revision="A16"/>
 
     <!-- MotoCamera -->

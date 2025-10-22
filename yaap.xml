@@ -11,7 +11,7 @@
     <!-- Vendor -->
     <project name="TheMuppets/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="github" revision="lineage-22.2"/>
     <project name="TheMuppets/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="github" revision="lineage-22.2"/>
-    <project name="cordbase/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="github" revision="lineage-22.2"/>
+    <project name="cordbase/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="github" revision="yaap-fourteen"/>
     <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="github" revision="lineage-22.2"/>
     
     <!-- Kernel and Others-->

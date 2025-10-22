@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="https://github.com/" />
-    <remote name="gitlab" fetch="https://gitlab.com/" />
 
     <!-- Device Tree -->
     <project name="SM6225-Motorola/device_motorola_devon" path="device/motorola/devon" remote="github" revision="A16"/>
     <project name="SM6225-Motorola/device_motorola_hawao" path="device/motorola/hawao" remote="github" revision="A16"/>
-    <project name="cordbase/device_motorola_rhode" path="device/motorola/rhode" remote="github" revision="yaap-A16"/>
-    <project name="cordbase/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="github" revision="yaap-A16"/>
+    <project name="cordbase/android_device_motorola_rhode" path="device/motorola/rhode" remote="github" revision="yaap-fourteen"/>
+    <project name="cordbase/android_device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="github" revision="yaap-fourteen"/>
 
     <!-- Vendor -->
     <project name="TheMuppets/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="github" revision="lineage-22.2"/>
     <project name="TheMuppets/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="github" revision="lineage-22.2"/>
-    <project name="TheMuppets/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="github" revision="lineage-22.2"/>
+    <project name="cordbase/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="github" revision="lineage-22.2"/>
     <project name="TheMuppets/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="github" revision="lineage-22.2"/>
     
     <!-- Kernel and Others-->
     <project name="cordbase/DanceKernel" path="kernel/motorola/sm6225" remote="github" revision="main"/>
-    <project name="cordbase/hardware_motorola.git" path="hardware/motorola" remote="github" revision="A16"/>
-
-    <!-- MotoCamera -->
-    <project name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp" path="vendor/motorola/MotoSignatureApp" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotorolaSettingsProvider" path="vendor/motorola/MotorolaSettingsProvider" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotoPhotoEditor" path="vendor/motorola/MotoPhotoEditor" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotCamera-common" path="vendor/motorola/MotCamera-common"  remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotCamera4-bengal" path="vendor/motorola/MotCamera4-bengal" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotCameraAI-common" path="vendor/motorola/MotCameraAI-common" remote="gitlab" revision="android-15"/>
-    <project name="Deivid21/proprietary_vendor_motorola_MotCamera3AI-bengal" path="vendor/motorola/MotCamera3AI-bengal" remote="gitlab" revision="android-15"/>
+    <project name="LineageOS/android_hardware_motorola.git" path="hardware/motorola" remote="github" revision="lineage-21"/>
 </manifest>

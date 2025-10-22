@@ -16,5 +16,7 @@
     
     <!-- Kernel and Others-->
     <project name="cordbase/DanceKernel" path="kernel/motorola/sm6225" remote="github" revision="main"/>
-    <project name="LineageOS/android_hardware_motorola.git" path="hardware/motorola" remote="github" revision="lineage-21"/>
+    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-21"/>
+    <project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="github" revision="A14-moto"/>
+    
 </manifest>
